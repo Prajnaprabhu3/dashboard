@@ -8,12 +8,12 @@ const Home = () => {
     <div >
       <Header />
 
-      <div className="">
-        <div className=""> 
+      <div className="flex">
+        <div className={styles.sidebar}> 
           <Sidebar />
         </div>
 
-        <div className={`${styles.horizontal}`}>Find your dream job here</div>
+        <div className={`flex justify-center items-center text-5xl font-semibold ${styles.horizontal}`}>Find your dream job here <span className="text-blue-500">!</span> </div>
       </div>
      </div>
   );

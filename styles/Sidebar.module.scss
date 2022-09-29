@@ -1,12 +1,24 @@
-.sidebarWrapper{
-    max-width: 7rem;
-    position: sticky;
-    flex: 0.2;
-    background-color: gold;
-    height: fit-content;
-    height: 100vh;
-}
+// .sidebarWrapper{
+//     display: flex;
+//     flex-direction: column;
+//     position: sticky;
+//     max-width: 7rem;
+//     flex: 0.2;
+//     background-color: gold;
+//     height: fit-content;
+//     // height: 100vh;
+// }
 
 .horizontal{
-    flex:0.4
+    flex:0.8;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    max-width: 7rem;
+    flex: 0.2;
+    // background-color: gold;
+    height: fit-content;
 }
