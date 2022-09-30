@@ -15,7 +15,7 @@ const Profile = () => {
     <Sidebar/>
     </div>
 
-    <div className={`flex justify-center items-center text-xl font-light ${styles.horizontal}`}>
+    <div className={`flex justify-center items-center mt-40 text-xl font-light ${styles.horizontal}`}>
      <ProfileComponent/>
     </div>
    

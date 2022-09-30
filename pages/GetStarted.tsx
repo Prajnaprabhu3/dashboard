@@ -11,7 +11,7 @@ const GetStarted = () => {
     <p className='text-5xl'>Get your drean job now!</p>
 
     <Link href="/Home">
-        <div className='flex items-center cursor-pointer'>
+        <div className='flex items-center cursor-pointer hover:bg-gray-50 p-2.5 rounded-md'>
             <p className='text-3xl'>Enter</p>
             <BsArrowRight className='text-xl font-light ml-2 mt-1'/>
         </div>

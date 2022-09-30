@@ -1,5 +1,3 @@
-// import meta  from '../pages/assets/company/meta.png'
-// import meta from "../pages/assets/company/meta.png";
 import Apply from './ApplyButton';
 
 function importAll(r) {
@@ -11,6 +9,64 @@ function importAll(r) {
 
 
 export const jobs = [
+  {
+    logo: images["meta.png"],
+    company: "Meta",
+    companyWork:"Sass based company",
+    hiringStatus:"Actively Hiring",
+    growthStatus:"Growing Fast",
+    role:"Frontend Engineer",
+    location:"Bangalore or Remote",
+    salary:"15-20L",
+    apply: <Apply/>
+  },
+
+  {
+    logo: images["netflix.png"],
+    company: "Netflix",
+    companyWork:"Sass based company",
+    hiringStatus:"Actively Hiring",
+    growthStatus:"Tech Giant",
+    role:"Fullstack Engineer",
+    location:"Hyderbad",
+    salary:"20-25L",
+    apply: <Apply/>
+  },
+  {
+    logo: images["google.png"],
+    company: "Google",
+    companyWork:"Sass based company",
+    hiringStatus:"Actively Hiring",
+    growthStatus:"Tech Giant",
+    role:"Fullstack Engineer",
+    location:"Hyderbad",
+    salary:"20-25L",
+    apply: <Apply/>
+  },
+  {
+    logo: images["apple.png"],
+    company: "Apple",
+    companyWork:"Sass based company",
+    hiringStatus:"Actively Hiring",
+    growthStatus:"Sass",
+    role:"Machine Learning Engineer",
+    location:"New York or Remote",
+    salary:"$200-$300k",
+    apply: <Apply/>
+  },
+
+  {
+    logo: images["amazon.png"],
+    company: "Amazon",
+    companyWork:"Sass based company",
+    hiringStatus:"Actively Hiring",
+    growthStatus:"Tech Giant",
+    role:"Fullstack Engineer",
+    location:"Hyderbad",
+    salary:"20-25L",
+    apply: <Apply/>
+  },
+
   {
     logo: images["meta.png"],
     company: "Meta",
@@ -48,8 +104,8 @@ export const jobs = [
   },
 
   {
-    logo: images["amazon.png"],
-    company: "Amazon",
+    logo: images["netflix.png"],
+    company: "Netflix",
     companyWork:"Sass based company",
     hiringStatus:"Actively Hiring",
     growthStatus:"Tech Giant",
@@ -58,6 +114,18 @@ export const jobs = [
     salary:"20-25L",
     apply: <Apply/>
   },
+  {
+    logo: images["google.png"],
+    company: "Google",
+    companyWork:"Sass based company",
+    hiringStatus:"Actively Hiring",
+    growthStatus:"Tech Giant",
+    role:"Fullstack Engineer",
+    location:"Hyderbad",
+    salary:"20-25L",
+    apply: <Apply/>
+  },
+  
   
   
 ];
