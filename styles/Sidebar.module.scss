@@ -10,15 +10,18 @@
 // }
 
 .horizontal{
-    flex:0.8;
+    flex:1;
 }
 
 .sidebar{
+    position: fixed;
     display: flex;
     flex-direction: column;
-    position: sticky;
-    max-width: 7rem;
-    flex: 0.2;
+    // position: sticky;
+    max-width: 4rem;
+    margin-left: 3.8rem;
+    flex: 0.4;
     // background-color: gold;
     height: fit-content;
+    top: 6rem;
 }

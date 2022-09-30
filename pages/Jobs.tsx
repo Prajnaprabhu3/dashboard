@@ -10,7 +10,7 @@ const Jobs = () => {
     <div>
       <Header/>
 
-      <div className='flex'>
+      <div className='flex justify-between bg-green-300'>
     <div className={styles.sidebar}>
     <Sidebar/>
     </div>

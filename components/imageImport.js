@@ -1,0 +1,1 @@
+import {meta,apple} from '../pages/assets/company/'
